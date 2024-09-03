@@ -1,10 +1,12 @@
-import ExpenseTracker from "./components/ExpenseTracker"
+import ExpenseTracker from "./components/ExpenseTracker";
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-      <ExpenseTracker/>
+      <div className='bg-green-400'>
+        <ExpenseTracker />
+      </div>
     </>
-  )
+  );
 }
-export default App
+export default App;
